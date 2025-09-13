@@ -4,12 +4,12 @@ function showinfo(name,age){
 }
 
 
-function Age(birth_year){
+function calcAge(birth_year){
     const current_year = new Date().getFullYear();
     return current_year - birth_year
 }
 
 let name = "Hiep"
 let birth_year = 2005
-let age = Age(birth_year)
+let age = calcAge(birth_year)
 showinfo(name,age)
